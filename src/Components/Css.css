@@ -1,0 +1,73 @@
+body{
+    /* margin: 0;
+	padding: 0; */
+    margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #a19eb8, #9a96c1, #e6e6fe);
+	
+}
+.main{
+	width: 450px;
+	height: 500px;
+    text-align: center;
+	background: red;
+	overflow: hidden;
+	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+.h2{
+    margin-top: 60px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.dis {
+  display: inline-block;
+  margin-right: 10px;
+}
+.reg{
+    /* padding-left: 15px; */
+    letter-spacing: 2px;
+}
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  button {
+    height:30px;
+    width:100px;
+    background:#fff;
+    border:1px solid #f2f2f2;
+    border-radius:20px;
+    color: slategrey;
+
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(220, 29, 231);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  p {
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  
